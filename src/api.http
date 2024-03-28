@@ -1,0 +1,31 @@
+### Recuperar Pokemon
+GET http://localhost:3000/pokemon
+
+### Para Crear un Pokemon
+POST http://localhost:3000/pokemon
+Content-Type: application/json
+
+  {
+    "id":1,
+    "name": "pikachu",
+    "type": "fuego",
+    "moves":[
+      "transform"
+    ]
+  }
+
+### Para Actualizar completamente un Pokemon
+PUT http://localhost:3000/pokemon?id=2
+Content-Type: application/json
+
+  {
+    "id":2,
+    "name": "charizar",
+    "type": "fuego",
+    "moves":[
+      "bola de fuego"
+    ]
+  }
+
+### Para Eliminar completamente un Pokemon
+DELETE  http://localhost:3000/pokemon?id=1

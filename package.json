@@ -1,0 +1,23 @@
+{
+  "name": "back-api-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [
+    "backend",
+    "API"
+  ],
+  "author": "Fabio Rojas <ninjaherodev@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "standard": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
